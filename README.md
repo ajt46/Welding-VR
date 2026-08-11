@@ -175,7 +175,7 @@ Blob thickness while free-welding can also thicken/thin with travel speed versus
 
 ---
 
-## Physics gotchas
+## Physics 
 
 Snapped parts (clamp, bars, refs, panel, flipped frame) usually **freeze**: kinematic + fully constrained so the piece stays seated. Grab is often disabled for a short moment after snap so physics can settle. When you grab again, freeze clears so you can move.
 
@@ -188,7 +188,7 @@ Snapped parts (clamp, bars, refs, panel, flipped frame) usually **freeze**: kine
 
 **Rule of thumb for teaching:** seated workpieces should be frozen; welding tip contact hates a jittery dynamic body. Prefer freeze-on-snap over destroying the rigidbody on clamp-style seats.
 
-### Cooldowns (why pull-out feels stuck)
+### Cooldowns - this is to ensure the real object does not get stuck on the example objects
 
 Short timers are intentional:
 
@@ -241,6 +241,3 @@ Power + ground + gas + held + trigger → wait start delay → tip on weldable w
 
 Sequence unlocked → tip in that step’s zone → trigger → release before next → machine prereqs if required → reorient caught up when the corner set asks for it  
 
----
-
-*Matches the current WeldingDemo scripts and typical scene wiring. Optional Inspector gates that are left empty in your scene are simply skipped.*
