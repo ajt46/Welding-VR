@@ -1,11 +1,11 @@
 # Welding-VR
 v1
 
-# WeldingDemo — Lab Playbook
+# WeldingDemo: https://drive.google.com/file/d/1Ba7tdAcNyPblOdjiWOtnvfeNqHyYKhxw/view?usp=sharing
 
-How to run and teach the WeldingDemo scene. Written for operators and instructors, not as a developer API reference.
+APK is in the files
 
-There are **two ways to finish the demo**. You can do either path on its own; they share the same weld gun, power/gas/ground rules, and many of the same “why won’t this snap?” gotchas.
+There are **two ways to finish the demo**. You can do either path on its own; they share the same weld gun, power/gas/ground rules
 
 | Path | What you build | Clamp role |
 |---|---|---|
